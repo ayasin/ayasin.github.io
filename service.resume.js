@@ -15,9 +15,12 @@
 			zip: '78665'
 		},
 
-		phoneNumber: '512 522 2647',
+		phoneNumber: '522 2647',
 
-		email: 'ayasin@datatensor.com',
+		areaCode: '512',
+
+		eName: 'ayasin',
+		eDomain: 'datatensor.com',
 
 		github: 'github.com/ayasin',
 
