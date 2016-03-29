@@ -9,13 +9,10 @@
 <body>
 	<div class="container">
 		<div class="row text-center">
-			<personal-info address="resume.address"
-										 ename="resume.eName" edomain="resume.eDomain"
-										 area-code="resume.areaCode" phone-number="resume.phoneNumber" name="resume.name">
-			</personal-info>
+			<personal-info address="resume.address" email="resume.email" phone-number="resume.phoneNumber" name="resume.name"></personal-info>
 		</div>
 		<div class="row text-center text-info">
-			{{resume.github}} &#8226; {{resume.blog}}
+			{{resume.github}} <span ng-style="blogSeparatorStyle">&#8226;</span> {{resume.blog}}
 		</div>
 		<div class="row">
 			<h3>Skills</h3>
