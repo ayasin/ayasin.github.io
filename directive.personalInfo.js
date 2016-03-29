@@ -11,7 +11,7 @@
 								'{{address.street1}} {{address.street2}} &#8226; {{address.city}},' +
 							'{{address.state}} &#8226; {{address.zip}}' +
 							'<br>' +
-								'{{ename}}@{{edomain}} &#8226; {{areaCode}} {{phoneNumber}}' +
+								'{{email}} &#8226; {{phoneNumber}}' +
 							'</div>';
 
 		return {
@@ -22,10 +22,7 @@
 				name: '=',
 				address: '=',
 				email: '=',
-				phoneNumber: '=',
-				areaCode: '=',
-				ename: '=',
-				edomain: '='
+				phoneNumber: '='
 			}
 		};
 	});
