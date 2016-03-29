@@ -15,19 +15,16 @@
 			zip: '78665'
 		},
 
-		phoneNumber: '522 2647',
+		phoneNumber: '512 522 2647',
 
-		areaCode: '512',
-
-		eName: 'ayasin',
-		eDomain: 'datatensor.com',
+		email: 'ayasin@datatensor.com',
 
 		github: 'github.com/ayasin',
 
-		blog: 'medium.com/@ayasin',
+		blog: null,
 
 		//Enter your objective here
-		objective : "<p>To utilize my 10+ years of experience as a top-notch software engineer/architect as well as enjoyment of learning " +
+		objective : "<p>To utilize my 15+ years of experience as a top-notch software engineer/architect as well as enjoyment of learning " +
 					"to help companies solve difficult and interesting problems and stay on the cutting edge of technology innovation.</p>" +
 					'<strong class="text-muted">Active TS Clearance</strong>',
 
@@ -38,23 +35,70 @@
 			"JavaScript",
 			"HTML5/CSS",
 			"MongoDB",
-			"Asynchronous Development"
+			"Asynchronous Development",
+			"Python"
 		],
 
-		projectsHeader : '<h4>Consulting (DataTensor & Direct Contract) October 2003 to Present</h4>' +
+		projectsHeader : '<h4>DataTensor & Direct Contract Positions October 2003 to Present</h4>' +
 						 '<h5>Project History</h5>',
 
 		projectsFooter : '<strong class="text-muted">Non-DataTensor work can be discussed during interview.</strong>',
 
 		//List your projects below
 		projects : [
+		{
+				company : 'Contract',
+				projectName : 'Match.com',
+				dates: '11/15 - 3/16',
+				skillsUsed : [
+					'JavaScript',
+					'React'
+				],
+				tags : [
+					'System Architecture',
+					'AJAX',
+					'Data Modeling'
+				],
+				highlights : [
+					'Helped define unified i18n strategy for Match.com and PeopleMedia (BlackPeopleMeet.com, OurTime.com, etc.) public sites',
+					'Created JavaScript build tools to handle i18n for Match.com\'s unique use cases',
+					'Helped convert part of site from .NET to ReactJS/NodeJS'
+				]
+			},
 			{
-				company : 'DataTensor - Contract',
-				projectName : 'Sapling Learning',
-				dates: '9/14 - Present',
+				company : 'Contract CTO',
+				projectName : 'June Recruiting Platform',
+				dates: '3/15 - 11/15',
 				skillsUsed : [
 					'JavaScript',
 					'React',
+					'FRP',
+					'BaconJS',
+					'NodeJS',
+					'Python'
+				],
+				tags : [
+					'System Architecture',
+					'AJAX',
+					'Data Modeling'
+				],
+				highlights : [
+					'Architected entire system (front and backend), responsible for managing all aspects of technology',
+					'Wrote the front and backend of a candidate management system which helped recruiters find interested candidates',
+					'Wrote financial tracking in Node with a PostgreSQL backend',
+					'Integrated phone calls through the platform usign the Twillio API',
+					'Assisted with marketing and messaging',
+					'Performed various devops duties'
+				]
+			},
+			{
+				company : 'DataTensor - Contract',
+				projectName : 'Sapling Learning',
+				dates: '9/14 - 9/15',
+				skillsUsed : [
+					'JavaScript',
+					'React',
+					'AngularJS',
 					'FRP',
 					'BaconJS',
 					'NodeJS'
@@ -65,14 +109,19 @@
 					'Data Modeling'
 				],
 				highlights : [
-					'Redesign and rearchitect an existing flash based homework system into HTML5/React.js',
-					'System was redesigned into a functional reactive application using Bacon as the streams library'
+					'Lead team to redesign and rearchitect an existing flash based homework system into a single page HTML5/React.js application (also supported a previous attempt in AngularJS)',
+					'System was redesigned into a functional reactive application using Bacon as the streams library',
+					'Created plugin system that allowed for easy future expantion into different subjects by adding new modules',
+					'Wrote mock server code to allow disconnected development of modules',
+					'Created a test harness to test components in isolation',
+					'Trained 3rd party developers on how to create modules for the system',
+					'The SPA was later embedded into various homework modules and e-books'
 				]
 			},
 			{
 				company : 'DataTensor - Product',
 				projectName : 'ShopTensor',
-				dates: '2/13 - Present',
+				dates: '2/13 - 2/14',
 				skillsUsed : [
 					'JavaScript',
 					'AngularJS',
@@ -90,15 +139,16 @@
 					'Responsible for code reviews and ensuring production stability',
 					'Entire system written in JavaScript with backend utilizing NodeJS and MongoDB',
 					'Collaborated on marketing website copy',
-					'Wrote marketing website code for <a href="http://shoptensor.com">ShopTensor</a>'
+					'Wrote marketing website code for ShopTensor'
 				]
 			},
 			{
 				company : 'NeoGenis - DataTensor Contract',
 				projectName : 'NeoGenis Web/Backend Support',
-				dates: '2/14 - Present',
+				dates: '2/14 - 6/14',
 				skillsUsed : [
 					'JavaScript',
+					'AngularJS',
 					'HTML5/CSS'
 				],
 				tags : [
@@ -106,17 +156,35 @@
 				],
 				highlights : [
 					'Responsible for updating and maintaining NeoGenis web properties',
-					'Assist in automating a number of backend data collection processes'
+					'Assist in automating a number of backend data collection processes',
+					'Worked to convert some pages to AngularJS'
+				]
+			},
+			{
+				company : 'Thermopylae Science And Technology - Direct Contract',
+				projectName : 'DyCom Service Person Portal',
+				dates: '1/13 - 9/14',
+				skillsUsed : [
+					'JavaScript',
+					'AngularJS'
+				],
+				tags : [
+				],
+				highlights : [
+					'Lead team to convert large scale .NET web app to NodeJS and AngularJS',
+					'Taught non-AngularJS developers AngularJS best practices'
 				]
 			},
 			{
 				company : 'Thermopylae Science And Technology - Direct Contract',
 				projectName : 'Core Services',
-				dates: '1/13 - Present',
+				dates: '1/13 - 9/14',
 				skillsUsed : [
 					'Java',
 					'Android',
-					'Objective-C'
+					'Objective-C',
+					'Big Data',
+					'Machine Learning'
 				],
 				tags : [
 					'WebSockets',
@@ -187,28 +255,6 @@
 				]
 			},
 			{
-				company : 'Novus - DataTensor Contract',
-				projectName : 'Novus',
-				dates: '2/10 - 12/12',
-				skillsUsed : [
-					'Objective-C',
-					'Android',
-					'Java',
-					'HTML5/CSS',
-					'PHP'
-				],
-				tags : [
-					'SQL'
-				],
-				highlights : [
-					'Responsible for designing and developing a celebrity personality monitization platform',
-					'Created initial version of both iOS and Android apps for Novus',
-					'Created mobile application generator (based on original apps) for both iOS and Android, generator was used to create a number of production apps',
-					'Directed efforts of database team',
-					'Directed efforts of front end team and code reviewed pull requests into source control'
-				]
-			},
-			{
 				company : 'DataTensor - Product',
 				projectName : 'DiscoverMyVoice',
 				dates: '1/10 - Present',
@@ -255,6 +301,7 @@
 					'.NET/IL'
 				],
 				highlights : [
+					'<strong>Novus</strong> Created vanity app geneartor for iOS and Android for celebrities',
 					'<strong>Schwab</strong> Member of core services team, trading platform team',
 					'<strong>Kershner Trading Group</strong> Algorithmic trading and high frequency trading platform team',
 					'<strong>YouNeedABudget.com</strong> Port of their C# application to Java',
