@@ -21,7 +21,7 @@
 
 		github: 'github.com/ayasin',
 
-		blog: null,
+		blog: 'medium.com/@ayasin',
 
 		//Enter your objective here
 		objective : "<p>To utilize my 15+ years of experience as a top-notch software engineer/architect as well as enjoyment of learning " +
